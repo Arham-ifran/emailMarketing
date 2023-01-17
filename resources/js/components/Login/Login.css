@@ -1,0 +1,297 @@
+.form-header{
+    padding: 15px 0 30px;
+}
+.login-layout{
+    background: #fff;
+    overflow-x: hidden;
+}
+.form-wrap .form-inner-wrapper{
+    padding: 0 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form-inner-wrapper h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #121417;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.form-sign .form-inner-wrapper h3{
+    margin-bottom: 30px;
+}
+.form-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+}
+.login-form .captcha-des{
+    margin-top: 20px;
+}
+.form-line::after, .form-line::before {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    height: 2px;
+    margin: auto 5px;
+    background-color: #e5e8ea;
+}
+.form-line span {
+    font-size: 18px;
+    line-height: 22px;
+    color: #5A5F67;
+}
+.login-form-group {
+    display: flex;
+    background-color: #F5F7F9;
+    align-items: center;
+}
+.login-form-group label {
+    width: 270px;
+    padding: 0 20px;
+    text-align: start;
+    font-size: 18px;
+    line-height: 28px;
+    color: #171C25;
+    font-weight: bold;
+}
+.form-container .form-control {
+    margin: auto;
+    background: #F5F7F9 !important;
+    border-radius: 0;
+    height: 68px;
+    border: none;
+    color: #6E7684;
+    font-size: 18px;
+    line-height: 28px;
+}
+.form-container .form-conetnt{
+    max-width: 680px;
+    margin: 0 auto;
+}
+.form-inner-wrapper .btn.btn-primary{
+    width: 35%;
+    border-radius: 0;
+    /* margin-top: 12px; */
+    background: #24E096;
+    border-color: #24E096;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 10px;
+}
+.signout-form .form-check{
+    margin-bottom: 20px;
+}
+.form-inner-wrapper  .btn-primary:hover {
+    background: #fff;
+    color: #24E096;
+}
+.form-inner-wrapper .btn-primary:after {
+    background-color: #fff;
+}
+.form-inner-wrapper .account span{
+    color: #171C25;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.form-inner-wrapper .account{
+    /* margin-bottom: 80px; */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.form-inner-wrapper .account span a{
+    color: #24E096;
+    text-decoration: underline;
+}
+.form-wrap .img-wrapper{
+    background: #F8F9FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-wrap{
+    height: 100vh;
+}
+.form-wrap .row, .form-wrap .form-sign, .form-wrap .img-wrapper{
+    height: 100%;
+}
+.form-inner-wrapper .form-account-wrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+.form-inner-wrapper .btn-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-inner-wrapper .btn-social a {
+    padding: 19px 13px;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 0;
+    color: #fff;
+    width: 100%;
+     margin: 0;
+     background: #FFFFFF;
+     border: none;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-inner-wrapper .btn-facebook{
+    background: #4B6EA9 !important;
+}
+.form-inner-wrapper .btn-twitter{
+    background: #1FBBF1 !important;
+    margin: 0 10px !important;
+}
+.form-inner-wrapper .btn-google{
+    border: 1px solid #DBE2EF !important;
+    color: #121417 !important;
+}
+.form-inner-wrapper .btn-social svg{
+    margin-right: 10px;
+}
+.form-inner-wrapper .text-theme{
+    color: #171C25;
+    font-size: 20px;
+}
+.form-inner-wrapper .text-theme:hover{
+    color: #24E096;
+}
+@media(max-width: 1600px){
+    .signout-form .form-inner-wrapper .form-line{
+        padding: 10px 0px;
+    }
+    .form-inner-wrapper .text-theme {
+        font-size: 14px;
+    }
+    .form-header {
+        padding: 15px 0 25px;
+    }
+    .form-inner-wrapper h3 {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .form-inner-wrapper .btn-social a {
+        padding: 13px 10px;
+        font-size: 12px;
+        line-height: 18px;
+        /* height: 100px; */
+    }
+    .form-inner-wrapper .btn-social svg {
+        margin-right: 5px;
+    }
+    .form-line span,.form-inner-wrapper .account span{
+        font-size: 14px;
+    }
+    .form-line {
+        padding: 20px 0px;
+    }
+    .login-form-group label {
+        width: 240px;
+        padding: 0 20px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .form-container .form-control {
+        height: 50px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .form-inner-wrapper .btn.btn-primary{
+        padding: 12px 10px;
+        font-size: 16px;
+    }
+    .form-wrap .img-wrapper img{
+        width: 500px;
+    }
+    .form-wrap .form-inner-wrapper {
+        padding: 0 40px;
+    }
+}
+
+@media(max-width: 1199px){
+    .form-inner-wrapper .btn-social a {
+        height: 50px;
+    }
+    .form-header {
+        padding: 15px 0 30px;
+    }
+    .form-inner-wrapper h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .form-wrap .form-inner-wrapper {
+        padding: 0 20px;
+    }
+    .form-wrap .img-wrapper img {
+        width: 400px;
+    }
+    .form-inner-wrapper .btn-twitter {
+        margin: 0 5px !important;
+    }
+    .login-form-group label {
+        width: 200px;
+    }
+}
+@media(max-width: 991px){
+    .login-form-group label {
+        width: 240px;
+    }
+    .form-wrap .img-wrapper{
+        padding: 20px 0;
+    }
+    .form-inner-wrapper .account {
+        margin-bottom: 30px;
+    }
+    .forget-form{
+        padding-bottom: 20px;
+    }
+}
+@media(max-width: 575px){
+    .form-inner-wrapper .btn.btn-primary{
+        margin-bottom: 20px;
+    }
+    .signout-form .form-check {
+        margin-bottom: 10px;
+    }
+    .form-inner-wrapper .btn-social{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .form-inner-wrapper .btn-twitter {
+        margin: 5px 0px !important;
+    }
+    .form-wrap .img-wrapper img {
+        width: 100%;
+    }
+    .form-inner-wrapper .account{
+        margin-top: 0;
+    }
+}
+@media(max-width: 480px){
+    .login-form-group label{
+        display: none;
+    }
+    .form-inner-wrapper .account{
+        text-align: center;
+        width: 100%;
+
+    }
+    .signout-form .form-inner-wrapper .account{
+        width: 100%;
+        text-align: center;
+    }
+    .form-inner-wrapper .btn.btn-primary {
+        width: 100%;
+    }
+}

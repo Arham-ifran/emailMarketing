@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16">
+  <g id="Group_35" data-name="Group 35" transform="translate(-1304 -1208)">
+    <g id="Rectangle_192" data-name="Rectangle 192" transform="translate(1304 1208)" fill="none" stroke="#171c25" stroke-width="1">
+      <rect width="18" height="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="17" height="15" fill="none"/>
+    </g>
+    <g id="Rectangle_193" data-name="Rectangle 193" transform="translate(1305 1214)" fill="none" stroke="#171c25" stroke-width="1">
+      <rect width="16" height="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" fill="none"/>
+    </g>
+    <g id="Rectangle_196" data-name="Rectangle 196" transform="translate(1310.5 1208) rotate(90)" fill="none" stroke="#171c25" stroke-width="1">
+      <rect width="16" height="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" fill="none"/>
+    </g>
+    <g id="Rectangle_197" data-name="Rectangle 197" transform="translate(1316.5 1208) rotate(90)" fill="none" stroke="#171c25" stroke-width="1">
+      <rect width="16" height="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" fill="none"/>
+    </g>
+    <g id="Rectangle_195" data-name="Rectangle 195" transform="translate(1305 1209)" fill="none" stroke="#171c25" stroke-width="1">
+      <rect width="16" height="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" height="1" fill="none"/>
+    </g>
+    <g id="Rectangle_194" data-name="Rectangle 194" transform="translate(1305 1218)" fill="none" stroke="#171c25" stroke-width="1">
+      <rect width="16" height="1" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" fill="none"/>
+    </g>
+  </g>
+</svg>

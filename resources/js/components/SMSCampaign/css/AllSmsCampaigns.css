@@ -1,0 +1,11 @@
+.contact-modal .modal-dialog{
+    width: 100%;
+    max-width: 70%;
+}
+.group-modal .modal-dialog{
+    width: 100%;
+    max-width: 400px;
+}
+.stop-icon{
+    color: #f00;
+}

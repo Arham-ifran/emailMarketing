@@ -1,0 +1,39 @@
+.header{margin:0 0 15px;padding:0 15px;}
+.header .mobile-lgoo-holder{width:200px;}
+.header .profile-holder .dropdown-menu{font-size:22px;line-height:25px;font-weight:500;}
+.header .profile-holder button,.header .notification-holder button{background:none;border:none;padding:0;border:none;border-radius:100%;overflow:hidden;}
+.header .profile-holder button:focus,.header .profile-holder button:active,.header .notification-holder button:focus,.header .notification-holder button:active{outline:none !important;box-shadow:none !important; border:none !important;background: none !important;}
+.header .profile-holder button:after,.header .notification-holder button:after{display:none;}
+.profile-img-wrap{border-radius: 100%; overflow: hidden; display: inline-block;}
+.profile-img-wrap img,.header .logout-block img{width:64px;height:64px;}
+.header .profile-holder .dropdown-menu{padding:0;border:none;background: #FFFFFF;box-shadow: 0px 0px 50px #171C250D;border-radius: 7px;overflow:hidden;padding:10px 10px 15px;top: 10px !important;}
+.header .profile-holder .user-name{font-size:23px;line-height:26px;}
+.header .profile-holder .email-id{font-size:18px;line-height:12px;color:#24E096;position: relative;}
+.header .profile-holder .email-id:after{content:"";width:0;height:2px;position:absolute;left:0;bottom:-6px;right:0;background:#24E096;transition:all ease-in-out 0.2s;}
+.header .profile-holder .email-id:hover:after{width:100%;}
+.header .profile-holder .logout-link{font-size:20px;line-height:24px;transition:all ease-in-out 0.2s;}
+.header .profile-holder .logout-link:hover{color:#24E096;}
+.header .notification-holder{margin-right:15px;}
+.header .notification-holder .btn-check:active+.btn-success, .btn-check:checked+.btn-success, .btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle {color: #171C25;background-color: transparent;border-color: transparent;}
+.header .notification-holder button:focus{color:#171C25;}
+.header .notification-holder .snooze-des li{list-style: none;padding-bottom: 15px;border-bottom: 1px solid #dadada;    margin-bottom: 5px;}
+.header .notification-holder .snooze-des li a{color: #6E7684;font-size: 18px;line-height: 25px;}
+.header .notification-holder .notification-box span{color: #171C25;font-weight: bold;font-size: 20px;}
+.header .notification-holder .dropdown-menu{padding: 10px 15px;transform: translate(-240px, 50px) !important;min-width: 300px !important;max-height: 350px;overflow-y: auto;}
+.header{position: relative;}
+.header .notification-holder .notification-box{margin-bottom: 10px;}
+.header .notification-holder .cross-btn{font-size: 20px;}
+.header .search-holder {margin-right: 0;height: 54px;}
+.header .search-holder .searchButton{outline: none;border: none;color: white;float: right;transition: 0.4s;border: none;height: 54px;background: transparent;}
+.header .search-holder .searchInput {border: none;background: none;outline: none;float: left;padding: 0;color: #171C25;font-size: 18px;transition: 0.4s;line-height: 54px;width: 0px;height: 0;}
+.header .search-holder:hover > .searchInput {width: 300px;height: 54px;padding: 4px 6px;background: #fff;border-radius: 8px;border-top-right-radius: 0;border-bottom-right-radius: 0;}
+.header .search-holder:hover > .searchButton {background: #fff;height: 54px;border-top-right-radius: 8px;border-bottom-right-radius: 8px;outline: none;}
+
+
+
+
+
+
+@media only screen and (max-width:575px){
+    .header{padding:0 10px 0 35px;}
+}

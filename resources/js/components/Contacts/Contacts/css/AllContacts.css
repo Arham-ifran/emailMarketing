@@ -1,0 +1,37 @@
+.add-contact-dropdown .dropdown button{padding:0;}
+.add-contact-dropdown .dropdown button.dropdown-toggle:focus{box-shadow:none;}
+.add-contact-dropdown .dropdown-menu{padding:0;box-shadow: 0 3px 3px rgba(0,0,0,0.3);overflow: hidden;}
+.add-contact-dropdown .sub-menu a{padding:7px 10px;display:block;color:#1D2579;}
+.add-contact-dropdown .sub-menu a:hover{background:#1D2579;color:#fff;}
+.bulk-edit-modal .modal-dialog{ max-width: 70%;}
+.PhoneInputInput{border: none !important;background-color: transparent;}
+.PhoneInputInput:focus{outline: none !important;background-color: transparent;}
+.sms-email-wrap .form-control{width: 20px;  margin: 0 50px 0 10px;}
+.sms-email-wrap label{
+    margin: 0;
+}
+.create-form-holder.multiple-form-holder .form-label{
+    width: 130px !important;
+}
+.create-form-holder.multiple-form-holder .sms-email-wrap .form-label{
+    width: auto !important;
+    padding: 0;
+}
+.multi-form-edit-detail{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+.multi-form-edit-detail:last-child{
+    border-bottom:none;
+    margin-bottom: 0;
+}
+@media (max-width: 991px){
+    .bulk-edit-modal .modal-dialog {
+        max-width: 90%;
+    }
+}
+@media (max-width: 767px){
+    .bulk-edit-modal .em-modal .modal-body {
+        padding: 2rem 0rem 1rem;
+    }
+}

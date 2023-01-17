@@ -1,0 +1,14 @@
+.multiple-contact hr{display: none;}
+.mutli-contct-list-holder .form-label {width:200px;font-size:22px;line-height:26px;margin:0 15px 0 0;padding:7px 0 0;}
+.mutli-contct-list-holder .input-holder {width:calc(100% - 215px);}
+.mutli-contct-list-holder .mutli-contct-list-select{max-width:260px;}
+
+@media only screen and (max-width:1399px){
+    .multiple-contact hr{margin-top:0;display:block;}
+    .multiple-contact .multiple-contact-row:last-child hr{display:none;}
+}
+@media only screen and (max-width:767px){
+	.mutli-contct-list-holder .form-label{font-size:18px;line-height:24px;width:100%;margin:0;}
+	.mutli-contct-list-holder .input-holder{width:100%;}
+	.mutli-contct-list-holder .mutli-contct-list-select{max-width:100%;}
+}

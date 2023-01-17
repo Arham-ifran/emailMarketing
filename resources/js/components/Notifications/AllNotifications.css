@@ -1,0 +1,106 @@
+.header{margin:0 0 15px;padding:0 15px;}
+/* .header .mobile-lgoo-holder{width:200px;} */
+.header .profile-holder .dropdown-menu{font-size:22px;line-height:25px;font-weight:500;}
+.header .profile-holder button,.header .notification-holder button{background:none;border:none;padding:0;border:none;border-radius:100%;overflow:hidden;}
+.header .profile-holder button:focus,.header .profile-holder button:active,.header .notification-holder button:focus,.header .notification-holder button:active{outline:none !important;box-shadow:none !important; border:none !important;background: none !important;}
+.header .profile-holder button:after,.header .notification-holder button:after{display:none;}
+.header .profile-holder button img,.header .logout-block img{width:64px;height:64px;}
+.header .profile-holder .dropdown-menu{padding:0;border:none;background: #FFFFFF;border-radius: 7px;overflow:hidden;padding:10px 10px 15px;top: 10px !important;box-shadow: 0px 1px 6px 1px rgb(0 0 0 / 10%);min-width: 160px;
+}
+.header .profile-holder .user-name{font-size:23px;line-height:26px;}
+.header .profile-holder .email-id{font-size:18px;line-height:12px;color:#24E096;position: relative;}
+.header .profile-holder .email-id:after{content:"";width:0;height:2px;position:absolute;left:0;bottom:-6px;right:0;background:#24E096;transition:all ease-in-out 0.2s;}
+.header .profile-holder .email-id:hover:after{width:100%;}
+.header .profile-holder .logout-link{font-size:20px;line-height:24px;transition:all ease-in-out 0.2s; margin-bottom: 5px;
+}
+.header .profile-holder .logout-link:last-child {margin-bottom: 0;}
+.header .profile-holder .logout-link:hover{color:#24E096;}
+.header .notification-holder{margin-right:15px;}
+.header .notification-holder .btn-check:active+.btn-success, .btn-check:checked+.btn-success, .btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle {color: #171C25;background-color: transparent;border-color: transparent;}
+.header .notification-holder button:focus{color:#171C25;}
+.header .notification-holder .snooze-des li{list-style: none;padding: 10px;border-bottom: 1px solid #dadada;}
+li.oldNotification:hover {
+    background: #e9ecef;
+    cursor: pointer;
+}
+li.oldNotification{position: relative;}
+li.oldNotification .cross-btn-wrapper .cross-btn{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    z-index: 99999;
+}
+.header .notification-holder .snooze-des li a{color: #6E7684; font-size: 12px; line-height: 25px;}
+.header .notification-holder .notification-box span{color: #171C25;font-weight: bold;font-size: 20px;width: 100%;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;}
+.header .notification-holder .notification-end span{color: #6E7684;font-weight: bold;font-size: 15px; cursor: pointer; width: 100%; text-align: center;}
+.header .notification-holder .dropdown-menu{padding: 10px 0px;min-width: 300px !important;max-height: 350px;overflow-y: auto;border-radius: 7px;}
+.notification-box, .notification-end{padding: 10px 10px}
+.header{position: relative;}
+.btn-style-note button.cross-btn {
+    border-color: #24e096;
+    color: #24e096;
+    background: #fff;
+    font-size: 21px;
+    border: 1px solid;
+}
+/* .d-flex.justify-content-end.btn-style-note {
+    position: absolute;
+    right: 54px;
+} */
+.btn-style-note button.cross-btn:hover{
+    background: #24e096;
+    color: #fff;
+}
+.header .notification-holder ul li{position: relative;}
+.header .notification-holder ul li .cross-btn {position: absolute;right: 10px; top: 20px;z-index: 99999;}
+.header .notification-holder .cross-btn{font-size: 20px;}
+.header .search-holder {margin-right: 0;height: 54px;}
+.header .search-holder .searchButton{outline: none;border: none;color: white;float: right;transition: 0.4s;border: none;height: 54px;background: transparent;}
+.header .search-holder .searchInput {border: none;background: none;outline: none;float: left;padding: 0;color: #171C25;font-size: 18px;transition: 0.4s;line-height: 54px;width: 0px;height: 0;}
+.header .search-holder:hover > .searchInput {width: 300px;height: 54px;padding: 4px 6px;background: #fff;border-radius: 8px;border-top-right-radius: 0;border-bottom-right-radius: 0;}
+.header .search-holder:hover > .searchButton {background: #fff;height: 54px;border-top-right-radius: 8px;border-bottom-right-radius: 8px;outline: none;}
+.header .notification-holder .dropdown-menu .inner{width: 100%;}
+.newNotification{background-color: #e7e7e7; color: #24E096;}
+.newNotification:hover{background-color: #e9ecef; color: #24E096; background: #e9ecef; cursor: pointer;}
+.oldNotification{background-color: #fff;}
+.oldNotification {color: #6E7684;font-size: 12px;padding: 10px 10px !important;}
+.desktop-notifcation-page a {font-size: 12px; line-height: 25px;color: #6E7684;}
+.desktop-notifcation-page span.notifcation-heading {font-size: 14px;display: block;text-transform: capitalize;color: #24e096;}
+.desktop-notifcation-page ul.pagination li.active{background-color: #24e096;}
+.desktop-notifcation-page ul.pagination li a{line-height: 17px;font-size: 16px;display: flex;align-items: center;justify-content: center;}
+.desktop-notifcation-page ul.pagination li {width: 35px;border: 1px solid #e2e2e2;display: flex;justify-content: center;height: 35px;align-items: center;justify-content: center;padding: 0px !important}
+
+/* Media query */
+@media(max-width: 1600px){
+    .header .profile-holder .logout-link {font-size: 18px;}
+    .header .notification-holder .dropdown-menu {padding: 0px 0px;}
+    .header .profile-holder button img, .header .logout-block img {width: 50px;height: 50px;}
+    .header .search-holder {margin-right: 20px;}
+    .header .notification-holder{margin-right: 10px;}
+}
+@media only screen and (max-width:992px){
+    .header .mobile-lgoo-holder{width:200px;}
+    .header-dropdown-holder .name-holder {width: 55px;}
+    .header-dropdown-holder .name-holder{font-size: 14px;
+    }.header .search-holder {margin-right: 5px;}
+    .profile-img-wrap img{width: 40px;height: 40px;}
+}
+@media only screen and (max-width:575px){
+    .btn-style-note {
+        right: 34px;
+    }
+    .upgrade-btn{display: none !important;}
+    .header{padding:0 10px 0 35px;}
+    .header .mobile-lgoo-holder{width: 120px;height: auto;}
+    .header .mobile-lgoo-holder img{width: 75%;}
+    .header .profile-holder button img, .header .logout-block img {width: 35px;height: 35px;}
+    .header .notification-holder, .header .search-holder {margin-right: 5px;}
+    .header .search-holder{height: 40px;    display: flex;align-items: center;}
+    .header{align-items: center;}
+    .header .search-holder:hover > .searchInput {width: 200px;height: 40px;}
+    .header .search-holder:hover > .searchButton {height: 40px; width: 20px;}
+    .header .search-holder .searchInput{font-size: 16px;}.header {margin: 0 0 30px;}
+    
+}

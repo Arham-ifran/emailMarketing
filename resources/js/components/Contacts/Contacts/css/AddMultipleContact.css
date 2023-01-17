@@ -1,0 +1,102 @@
+.multiple-contact hr {
+    display: none;
+}
+.mutli-contct-list-holder .form-label {
+    width: 230px;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 15px 0 0;
+    padding: 7px 0 0;
+}
+.mutli-contct-list-holder .input-holder {
+    width: calc(100% - 215px);
+}
+.mutli-contct-list-holder .mutli-contct-list-select {
+    max-width: 260px;
+}
+.mutli-contct-list-holder .mutli-contct-list-select {
+    max-width: 260px;
+}
+.fr .mutli-contct-list-holder .mutli-contct-list-select {
+    max-width: 350px;
+}
+.fr .multiple-contact label {
+    margin: 0 10px 0 0;
+    width: 110px;
+}
+.sms-email-wrap .form-control {
+    width: 20px;
+    margin: 0 50px 0 10px;
+}
+
+.sms-email-wrap label {
+    margin: 0 !important;
+    width: auto !important;
+}
+@media only screen and (max-width: 1399px) {
+    .multiple-contact hr {
+        margin-top: 0;
+        display: block;
+    }
+    .multiple-contact .multiple-contact-row:last-child hr {
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .mutli-contct-list-holder .form-label {
+        font-size: 18px;
+        line-height: 24px;
+        width: 100%;
+        margin: 0;
+    }
+    .mutli-contct-list-holder .input-holder {
+        width: 100%;
+    }
+    .mutli-contct-list-holder .mutli-contct-list-select {
+        max-width: 100%;
+    }
+}
+
+/* by internee */
+/* .smallmodal .modal-content {
+    
+    width: 50%;
+	margin: 0px auto;
+}
+.template-holder {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.img-holder-height{
+	height: 50%;
+	
+}
+.img-holder-height img{
+	height: 100%;
+	width: 100%;
+} */
+/* by internee */
+.templates-holder .template-holder {
+    max-height: 160px;
+    min-height: 160px;
+}
+.img-holder-height {
+    height: 150px;
+}
+.image-holder.img-holder-height img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.model-image.img-holder-height {
+    height: 200px;
+}
+.templates-holder .template-holder {
+    max-height: 220px;
+    min-height: 220px;
+}
+.existing-temp .modal-content {
+    border-top: 4px solid #1d2579;
+}

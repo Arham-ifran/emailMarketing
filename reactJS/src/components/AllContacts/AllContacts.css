@@ -1,0 +1,5 @@
+.add-contact-dropdown .dropdown button{padding:0;}
+.add-contact-dropdown .dropdown button.dropdown-toggle:focus{box-shadow:none;}
+.add-contact-dropdown .dropdown-menu{padding:0;box-shadow: 0 3px 3px rgba(0,0,0,0.3);overflow: hidden;}
+.add-contact-dropdown .sub-menu a{padding:7px 10px;display:block;color:#1D2579;}
+.add-contact-dropdown .sub-menu a:hover{background:#1D2579;color:#fff;}

@@ -1,0 +1,515 @@
+.header {
+    margin: 0 0 15px;
+    padding: 0 15px;
+}
+.header .profile-holder .dropdown-menu {
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.header .profile-holder button,
+.header .notification-holder button {
+    background: none;
+    border: none;
+    padding: 0;
+    border: none;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.header .profile-holder button:focus,
+.header .profile-holder button:active,
+.header .notification-holder button:focus,
+.header .notification-holder button:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+}
+.header .profile-holder button:after,
+.header .notification-holder button:after {
+    display: none;
+}
+.profile-img-wrap {
+    border-radius: 100%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0.2rem 0.75rem 0.2rem 0.5rem;
+}
+.profile-img-wrap img,
+.header .logout-block img {
+    width: 64px;
+    height: 64px;
+}
+.header .profile-holder .dropdown-menu {
+    padding: 0;
+    border: none;
+    background: #ffffff;
+    border-radius: 7px;
+    overflow: hidden;
+    padding: 10px 10px 15px;
+    top: 10px !important;
+    box-shadow: 0px 1px 6px 1px rgb(0 0 0 / 10%);
+    min-width: 160px;
+}
+.header .profile-holder .user-name {
+    font-size: 23px;
+    line-height: 26px;
+}
+.header .profile-holder .email-id {
+    font-size: 18px;
+    line-height: 12px;
+    color: #24e096;
+    position: relative;
+}
+.header .profile-holder .email-id:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    right: 0;
+    background: #24e096;
+    transition: all ease-in-out 0.2s;
+}
+.header .profile-holder .email-id:hover:after {
+    width: 100%;
+}
+.header .profile-holder .logout-link {
+    font-size: 20px;
+    line-height: 24px;
+    transition: all ease-in-out 0.2s;
+    margin-bottom: 5px;
+}
+.header .profile-holder .logout-link:last-child {
+    margin-bottom: 0;
+}
+.header .profile-holder .logout-link:hover {
+    color: #24e096;
+}
+.header .notification-holder {
+    margin-right: 15px;
+}
+.header .notification-holder .btn-check:active + .btn-success,
+.btn-check:checked + .btn-success,
+.btn-success.active,
+.btn-success:active,
+.show > .btn-success.dropdown-toggle {
+    color: #171c25;
+    background-color: transparent;
+    border-color: transparent;
+}
+.header .notification-holder button:focus {
+    color: #171c25;
+}
+.header .notification-holder .snooze-des li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+    cursor: pointer;
+}
+.header .notification-holder .snooze-des li a {
+    color: #6e7684;
+    font-size: 12px;
+    line-height: 25px;
+}
+.header .notification-holder .snooze-des li a .notifcation-heading {
+    font-size: 15px;
+    text-transform: capitalize;
+    display: block;
+    color: #24e096;
+}
+.header .notification-holder .snooze-des li:hover {
+    background: #e9ecef;
+}
+.header .notification-holder .notification-box span {
+    color: #171c25;
+    font-weight: bold;
+    font-size: 20px;
+}
+.header .notification-holder .notification-end span {
+    color: #6e7684;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header .notification-holder .dropdown-menu {
+    padding: 15px 15px;
+    min-width: 300px !important;
+    max-height: 350px;
+    overflow-y: auto;
+    border-radius: 7px;
+}
+.header {
+    position: relative;
+}
+.header .notification-holder .cross-btn {
+    font-size: 20px;
+}
+.styled-notify .cross-btn {
+    float: right;
+}
+.styled-notify .cross-btn {
+    border-color: #24e096;
+    color: #24e096;
+    background: #fff;
+    font-size: 21px;
+    border: 1px solid;
+}
+.header .search-holder {
+    margin-right: 0;
+    height: 54px;
+}
+.header .search-holder .searchButton {
+    outline: none;
+    border: none;
+    color: white;
+    float: right;
+    transition: 0.4s;
+    border: none;
+    height: 54px;
+    background: transparent;
+}
+.header .search-holder .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #171c25;
+    font-size: 18px;
+    transition: 0.4s;
+    line-height: 54px;
+    width: 0px;
+    height: 0;
+}
+.header .search-holder:hover > .searchInput {
+    width: 300px;
+    height: 54px;
+    padding: 4px 6px;
+    background: #fff;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.header .search-holder:hover > .searchButton {
+    background: #fff;
+    height: 54px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: none;
+}
+.header .notification-holder .dropdown-menu .inner {
+    width: 100%;
+}
+.newNotification {
+    background-color: #f0f4f6;
+}
+.header-dropdown-holder {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    align-items: center;
+    padding: 0;
+}
+.header-dropdown-holder .name-holder {
+    display: inline-block;
+    vertical-align: sub;
+    width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.header-dropdown-holder .dropdown .dropdown-toggle {
+    position: relative;
+    height: 5rem;
+    display: block;
+    text-decoration: none;
+    background: transparent;
+    color: #24e096;
+    box-sizing: border-box;
+    padding: 0.9rem;
+    float: right;
+    border-radius: 0 3px 3px 0;
+    overflow: visible;
+}
+.header-dropdown-holder .dropdown #dropdown-basic svg {
+    fill: #24e096;
+    color: #24e096;
+    font-size: 25px;
+}
+.header-dropdown-holder .show.dropdown .dropdown-toggle {
+    background: #24e096;
+}
+.header-dropdown-holder .show.dropdown #dropdown-basic svg {
+    fill: #fff;
+    color: #fff;
+}
+.header-dropdown-holder .show.dropdown .dropdown-toggle:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    display: block;
+    border-style: solid;
+    border-width: 10px 12px 0 12px;
+    border-color: #24e096 transparent transparent transparent;
+    width: 10px;
+    height: 10px;
+}
+.header-dropdown-holder .dropdown .dropdown-menu {
+    animation: pulse 0.5s;
+    top: 15px !important;
+}
+.header-dropdown-holder .btn-success {
+    padding: 0 10px;
+}
+.header-dropdown-holder .btn-success,
+.header-dropdown-holder .btn-success:hover,
+.header-dropdown-holder .btn-success:focus {
+    background: transparent;
+    box-shadow: none !important;
+}
+.header-dropdown-holder .btn:after {
+    display: none;
+}
+.header-dropdown-holder .dropdown-menu {
+    box-shadow: 0px 0px 50px #171c250d;
+    border: 1px solid #eee;
+    min-width: 315px;
+    border-radius: 3px;
+    padding: 0;
+}
+.header-dropdown-holder .dropdown-menu .logout-block a {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+}
+.header-dropdown-holder .dropdown-menu .logout-block .logout-link span {
+    display: flex;
+    align-items: center;
+}
+.header-dropdown-holder .dropdown-menu .logout-block a:hover {
+    background: #e5e5e563;
+}
+.header-dropdown-holder .dropdown-menu .logout-block span.drop-content {
+    color: #171c25;
+    font-size: 20px;
+    font-weight: 300;
+}
+.header-dropdown-holder .dropdown-menu .logout-block a span svg {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #171c25;
+}
+.header-dropdown-holder .dropdown-menu .logout-block a:hover span svg,
+.header-dropdown-holder .dropdown-menu .logout-block a:hover span.drop-content {
+    color: #24e096;
+}
+
+.pkg-info {
+    background-color: #1d2579;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+span.cross-sign {
+    position: absolute;
+    font-size: 43px;
+    cursor: pointer;
+    /* top: -14px; */
+    right: 10px;
+    bottom: 0;
+    height: 100%;
+    line-height: 33px;
+}
+.mark {
+    border-radius: 20px;
+    border: 2px solid #fff;
+    width: 20px;
+    height: 20px;
+    background-color: #ff6b6b !important;
+    position: absolute;
+    top: -7px;
+    left: 10px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: 700;
+    position: absolute !important;
+    border-radius: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .notification-holder button {
+    overflow: inherit !important;
+}
+@media (max-width: 1600px) {
+    .header-dropdown-holder .name-holder,
+    .header-dropdown-holder .dropdown-menu .logout-block span.drop-content,
+    .header-dropdown-holder .dropdown-menu .logout-block a span svg {
+        font-size: 16px;
+    }
+    .header-dropdown-holder .dropdown .dropdown-toggle {
+        height: 3.4rem;
+    }
+    .header-dropdown-holder .dropdown #dropdown-basic svg {
+        font-size: 20px;
+    }
+    .header-dropdown-holder .show.dropdown .dropdown-toggle:after {
+        border-width: 7px 10px 0 10px;
+    }
+    .header-dropdown-holder .dropdown .dropdown-menu {
+        min-width: 277px;
+        top: 10px !important;
+    }
+    .header-dropdown-holder .dropdown-menu .logout-block a {
+        padding: 0.55rem 1rem;
+    }
+    .header-dropdown-holder .profile-holder {
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+    .header-dropdown-holder .name-holder {
+        width: 140px;
+    }
+    .header .profile-holder .logout-link {
+        font-size: 18px;
+    }
+    .header .notification-holder .dropdown-menu {
+        padding: 10px 0px;
+    }
+    .profile-img-wrap img,
+    .header .logout-block img {
+        width: 50px;
+        height: 50px;
+    }
+    .header .notification-holder,
+    .header .search-holder {
+        margin-right: 20px;
+    }
+}
+/* @media(max-width: 1440px){
+    span.cross-sign{
+        top: -9px;
+    }
+} */
+@media only screen and (max-width: 992px) {
+    .header .mobile-lgoo-holder {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    span.cross-sign {
+        font-size: 43px;
+        /* top: -18px; */
+    }
+    .pkg-info {
+        padding: 30px 8px 16px;
+    }
+    .header-dropdown-holder .name-holder,
+    .header-dropdown-holder .dropdown-menu .logout-block span.drop-content,
+    .header-dropdown-holder .dropdown-menu .logout-block a span svg {
+        font-size: 14px;
+    }
+    .header-dropdown-holder .dropdown-menu .logout-block a {
+        padding: 0.2rem 1rem;
+    }
+    .header-dropdown-holder .dropdown .dropdown-menu {
+        min-width: 228px;
+    }
+    .header .notification-holder {
+        margin-right: 2px !important;
+    }
+    .header .notification-holder small {
+        font-size: 30% !important;
+    }
+    .header-dropdown-holder .name-holder {
+        width: 122px;
+    }
+    .header-dropdown-holder .dropdown .dropdown-toggle {
+        height: 2.8rem;
+    }
+    .header-dropdown-holder .profile-holder {
+        height: auto;
+    }
+    .header {
+        padding: 0 10px 0 35px;
+    }
+    .header .mobile-lgoo-holder {
+        width: 140px;
+        height: auto;
+    }
+    .header .mobile-lgoo-holder img {
+        width: 75%;
+    }
+    .profile-img-wrap img,
+    .header .logout-block img {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+    .header .search-holder {
+        margin-right: 5px;
+    }
+    .header .search-holder {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .header {
+        align-items: center;
+    }
+    .header .search-holder:hover > .searchInput {
+        width: 200px;
+        height: 40px;
+    }
+    .header .search-holder:hover > .searchButton {
+        height: 40px;
+        width: 20px;
+    }
+    .header .search-holder .searchInput {
+        font-size: 16px;
+    }
+    .header {
+        margin: 0 0 30px;
+    }
+}
+@media (max-width: 480px) {
+    .header-dropdown-holder .show.dropdown .dropdown-toggle:after {
+        display: none;
+    }
+    .header-dropdown-holder .dropdown .dropdown-menu {
+        top: 5px !important;
+    }
+    .header-dropdown-holder .dropdown .dropdown-menu {
+        min-width: 150px;
+    }
+    .header-dropdown-holder .show.dropdown .dropdown-toggle {
+        background: transparent;
+    }
+    .header-dropdown-holder .show.dropdown #dropdown-basic svg {
+        fill: #24e096;
+        color: #24e096;
+    }
+    .header .search-holder {
+        display: none !important;
+    }
+    .header-dropdown-holder .dropdown .dropdown-toggle {
+        padding: 0 5px 0 0;
+    }
+}

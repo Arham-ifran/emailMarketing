@@ -1,0 +1,17 @@
+.sidebar .main-nav{font-size:22px;line-height:25px;font-weight:500;height:100%;max-height:calc(100% - 143px);overflow-y:auto;}
+.sidebar .main-nav li{position:relative;padding:12px 10px 12px 20px;}
+.sidebar .main-nav a,.sidebar .main-nav li span{color: #171C25;display: block;}
+.sidebar .main-nav a:before{content:"";width:0;position: absolute;left:0;top:0;bottom:0;background-color:#24E096;transition:all ease-in-out 0.3s;}
+.sidebar .main-nav a:hover:before,
+.sidebar .main-nav li.active a:before{width:4px;}
+.sidebar .main-nav .sub-menu{padding:20px 0 0;display:none;}
+.sidebar .main-nav li:hover .sub-menu, .sidebar .main-nav li.active .sub-menu{display:block;}
+.sidebar .main-nav li.has-dropdown span .arrow-icon{
+    position: absolute;
+    right: 15%;
+    top: 10px;
+}
+.sidebar .main-nav li.has-dropdown span.dropdown-active .arrow-icon{
+    right: 7%;
+    top: 4px;
+}

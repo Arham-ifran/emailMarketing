@@ -1,0 +1,8 @@
+.campaign-preview-widget{border:1px solid #171C25;}
+.campaign-preview-widget .widget-heading{font-size:18px;line-height:21px;}
+.campaign-preview-widget .image-holder{margin:0 15px 0 0;}
+.campaign-preview-widget .template-name,
+.campaign-preview-widget .campaign-date{font-size:12px;}
+.campaign-preview-widget h3{font-size:26px;line-height:30px;position:relative;}
+.campaign-preview-widget h3:after{content:"";width:50px;height:4px;position:absolute;left:0;bottom:-10px;background:#24E096;}
+.campaign-preview-widget p{margin:0 0 10px;}

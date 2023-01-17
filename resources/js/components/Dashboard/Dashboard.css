@@ -1,0 +1,32 @@
+.graph-box{margin:0 0 30px;}
+.graph-box .stats-blocks{border-bottom:1px solid #dbdde0;}
+.stats-blocks .stat-block{width:50%;padding:40px 20px 50px;border-right:1px solid #dbdde0;}
+.graph-box .stats-blocks:last-child,.stats-blocks .stat-block:last-child{border:none;}
+.stats-blocks .stat-block .stat-value{font-size:48px;line-height:52px;color:#24E096;}
+.stats-blocks .stat-block .stat-name{font-size:16px;line-height:20px;color:#6E7684;}
+.campaign-graph-holder .recharts-wrapper{width: 100% !important}
+.campaign-graph-holder .recharts-wrapper svg{overflow: visible;}
+
+
+@media only screen and (max-width:1899px){
+	.stats-blocks .stat-block{padding:40px 10px 50px;}
+	.stats-blocks .stat-block .stat-value{font-size:38px;line-height:42px;}
+}
+ul.dashed {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	/* justify-content: space-around; */
+	justify-content: center;
+}
+ul.dashed > li {
+	text-indent: -5px;
+	font-size: 80%;
+}
+ul.dashed > li:before {
+	content: "-";
+	text-indent: -5px;
+	font-weight: bold;
+	font-size: x-large;
+}
